@@ -22,7 +22,7 @@ selected = option_menu(
         None,["Home", "Geospatial Analysis", "Visualization"], 
         icons=['house-fill', 'map-fill', "bar-chart-fill"], 
         menu_icon="cast", 
-        default_index=2,
+        default_index=0,
         orientation="horizontal",
         styles={"container": {"padding": "0!important", "background-color": "orange"},
                 "icon": {"color": "red", "font-size": "1.5rem"}, 
